@@ -165,7 +165,7 @@ main{
 }
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
   .parent_section{
     margin: 13px;
     display: flex;
