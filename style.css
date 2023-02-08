@@ -183,18 +183,21 @@ footer{
 @media screen and (max-width:425px){
   .parent_section{
     margin: 13px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
-
+  .section_one{
+    grid-column: 1/2;
+  }
 
   .section_two{
-
+    grid-column:1/2 ;
     border-bottom-left-radius: 0em;
   }
 
   .section_three{
+    grid-column: 1/2;
     border-bottom-left-radius: var(--sect_rad);
   }
 
